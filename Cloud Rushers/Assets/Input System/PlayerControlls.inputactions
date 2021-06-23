@@ -1,0 +1,128 @@
+{
+    "name": "PlayerControlls",
+    "maps": [
+        {
+            "name": "FlyerInputMap",
+            "id": "8b194969-ee0a-483d-a777-3c295230d2c8",
+            "actions": [
+                {
+                    "name": "RotateGoalPercent",
+                    "type": "Value",
+                    "id": "c7b04f6e-55e9-4b1b-b778-85f998e926a4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "WingSweep",
+                    "type": "Button",
+                    "id": "c6c068d7-301b-4fa2-958a-a8c2663f9487",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Stop",
+                    "type": "Button",
+                    "id": "64de85e4-860d-4f4b-9c43-5c09bf9fdae4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Action1",
+                    "type": "Button",
+                    "id": "2c13e93f-2ce1-413a-94e9-624b4d99952b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Action2",
+                    "type": "Button",
+                    "id": "49ca4a4a-bad3-475f-b12b-17ac8610d2f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Action3",
+                    "type": "Button",
+                    "id": "30610f69-e8d1-4e54-afce-7e35ac15e09e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b874b3fb-94ef-4b08-ac11-cb8e840f97c3",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateGoalPercent",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11994c30-2a42-4e42-a673-e0f0f358fc14",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9244d26c-7462-4d09-ac88-4b0e8ec7b45c",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "60efa13a-0fa7-47c4-9da4-8742607717bb",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d3b755a-66f9-45d8-973c-89d9d951ed20",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WingSweep",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58a415df-5d9a-4cb6-8ee2-21be5b67b20c",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
